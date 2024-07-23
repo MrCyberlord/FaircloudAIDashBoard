@@ -1,0 +1,58 @@
+.savings-summary {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border-radius: 8px; 
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .summary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    color: white;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .approved {
+    background-color: green;
+  }
+  
+  .unapproved {
+    background-color: red; 
+  }
+  
+  .amount {
+    margin-left: 8px; 
+    font-weight: bold;
+  }
+  
+  .graph {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    background-color: #40ab6b; 
+    margin-left: 20px;
+  }
+  
